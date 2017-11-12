@@ -1,0 +1,1 @@
+1. python 中有一个叫Tkinter与Tk GUI系统的标准接口。使python程序无需改变，可以在各个主要GUI系统上实现图形用户接口的全部特性。
