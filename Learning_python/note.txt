@@ -29,3 +29,9 @@ Python语言可以书写系统管理软件。
 作为unix文件型脚本： 第一个是特殊的#!/解释器 ，以后是程序的文本。
 在其它系统中嵌入:    如 C语言代码中通过链接Python的解释器，传给解释器一个python语句。
 特定平台的启动方法： 
+------------------------------------------------
+初览模块文件
+import myfile
+from myfile import title
+reload(myfile)
+三种导入模块文件的用法：import, form ... import; reload.
