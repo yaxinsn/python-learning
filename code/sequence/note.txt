@@ -1,0 +1,4 @@
+python有6个内建的sequence序列 
+list(列表),元组(tuple),string,unicode str,buffer,xrange
+python基础教程一书，2章介绍了list ,tuple
+
