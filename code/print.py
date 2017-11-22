@@ -13,3 +13,26 @@ print(long_str)
 print r"'c:\need_path'"
 print "'c:\need_path'"
 print r'Let\'s go'  # Let\' go
+
+
+
+print "python str:"
+
+test1='''
+
+fmt % var 
+example: var="money"
+print("I love %s" % var)
+
+var1=15
+print("I have %d apples" % var1)
+
+'''
+print test1
+
+var="money"
+print("I love %s" % var);
+
+var1=15
+print("I have %d apples" % var1);
+
