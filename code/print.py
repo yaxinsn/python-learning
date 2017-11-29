@@ -1,6 +1,17 @@
+#--coding:utf-8--
 ##print 
 # str = reqr = `` 
+###############################################
+comment = u'''
+描述：str repr函数
+""" """长字符串
+r"string" 原始字符串
+u"unicode" 
+print fmt % var
+'''
+print(comment)
 
+###############################################
 a= 10
 print '10//3 is ' + str(10//3) + '; '
 print '10//3 is ' + repr(10//3) + '; '
