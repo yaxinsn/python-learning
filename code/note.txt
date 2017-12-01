@@ -1,0 +1,21 @@
+
+
+
+
+http://python.jobbole.com/87805/
+容器(container)、可迭代对象(iterable)、迭代器(iterator)、生成器(generator)、列表/集合/字典推导式(list,set,dict comprehension)
+
+
+容器就是把多个元素组织在一起的数据结构。如列表，元组，集合，字典,str 等等。
+
+所有的容器都是“可迭代的”。
+
+所有的生成器都是迭代器。反之不成立。
+
+迭代器：
+任何实现了__iter__和__next__()（python2中实现next()）方法的对象都是迭代器。
+
+生成器由生成函数，或是生成器表达式
+生成器表达式：
+a = (x*x for x in range(10))
+生成器函数：有yield的函数。
