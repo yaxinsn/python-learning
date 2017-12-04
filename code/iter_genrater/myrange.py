@@ -11,7 +11,11 @@ comment = u'''
 这两个方法是迭代器最基本的方法，一个用来获得迭代器对象，一个用来获取容器中的下一个元素。
 
 class object self __init__几个关键字完成的一个迭代器类，
+
 还有一个高级迭代器，可以传入参数的。
+
+生成器有两种格式：一种是列表生成式，另一种是yield的函数。
+
 
 '''
 print(comment)
@@ -66,7 +70,9 @@ print('type m is %s ' % type(m));
 print('print m:  %s ' % type(m));
 for i in m:
     print(i)
-print(u''' 高级迭代器 ''')
+print(u''' 高级迭代器 
+        给迭代器里传入一个函数，这个函数来计算返回的值。
+        ''')
 
 
 class myrange_2(object):
@@ -88,8 +94,5 @@ class myrange_2(object):
 def power(n): 
     return n*n
 m=myrange_2(4, power); # 4-给了__init__里的n.
-print(u''' m是一个iterotor ''');
-print('type m is %s ' % type(m));
-print('print m:  %s ' % type(m));
 for i in m:
     print(i)
