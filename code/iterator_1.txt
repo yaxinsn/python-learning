@@ -12,4 +12,9 @@ a=[1,2,4,54]
 >>>
 
 迭代器本质上是一个闭包，那个建立好闭包之后再修改UPvalue的值会怎么样呢？
+
+
+from collections import Iterable
+isinstance('abc', Iterable) # str是否可迭代
+
  
